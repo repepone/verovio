@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <!-- Caso mínimo: @tstamp no numérico en un control event (entrada inválida a propósito). -->
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>tstamp-no-numerico</title>
+         </titleStmt>
+         <pubStmt />
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef meter.count="4" meter.unit="4">
+                  <staffGrp>
+                     <staffDef xml:id="sd1" n="1" lines="5" clef.shape="G" clef.line="2" />
+                  </staffGrp>
+               </scoreDef>
+               <section>
+                  <measure xml:id="m1" n="1">
+                     <staff n="1">
+                        <layer n="1">
+                           <note xml:id="n1" dur="1" pname="c" oct="5" />
+                        </layer>
+                     </staff>
+                     <dynam xml:id="d1" staff="1" tstamp="abc">p</dynam>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>

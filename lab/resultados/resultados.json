@@ -1,0 +1,6679 @@
+{
+ "versions": [
+  "6.1.0-682d606",
+  "6.3.0-425dd7b"
+ ],
+ "files": [
+  {
+   "file": "alter-sintetico.musicxml",
+   "profile": "defecto",
+   "notes": [
+    15,
+    15
+   ],
+   "expected_notes": 15,
+   "pitch_errors": [
+    4,
+    0
+   ],
+   "pitch_changed_by_order": 4,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    6560,
+    5219
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -11
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 5,
+    "tie@endid": 1,
+    "accid@id": -11,
+    "accid@accid.ges": -9,
+    "accid@glyph.name": -5,
+    "accid@glyph.auth": -5
+   },
+   "mei_lines_changed": 45,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     36494,
+     36454
+    ],
+    "ids": [
+     94,
+     88
+    ],
+    "g": [
+     109,
+     103
+    ],
+    "class_diff": {
+     "accid": -6
+    },
+    "attr_diff": {
+     "path@stroke-linejoin": 1,
+     "path@stroke-linecap": 1
+    },
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     11,
+     5
+    ],
+    "sig_ops": {
+     "insert": 1
+    },
+    "heads": [
+     15,
+     15
+    ],
+    "heads_compared": 15,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     17,
+     17
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 3,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15
+     },
+     {
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     17,
+     17
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 3,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15,
+      "restsOn": 1,
+      "restsOff": 1
+     },
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15,
+      "restsOn": 1,
+      "restsOff": 1
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    15,
+    15
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 15,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 15,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    1,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      20.132746999999995,
+      29.573526500000014,
+      88.66709800000001
+     ],
+     "B": [
+      20.512689000000023,
+      26.57363349999997,
+      70.811846
+     ]
+    },
+    "svg": {
+     "A": [
+      3.8624609999999393,
+      5.889356500000019,
+      11.646120999999994
+     ],
+     "B": [
+      3.7563049999999976,
+      4.1030320000000415,
+      10.544542999999976
+     ]
+    },
+    "timemap": {
+     "A": [
+      13.37646600000005,
+      21.842178500000045,
+      41.27390500000001
+     ],
+     "B": [
+      13.517779000000019,
+      17.743336500000055,
+      37.78707199999997
+     ]
+    },
+    "mei": {
+     "A": [
+      0.19210100000009334,
+      0.34068050000001904,
+      0.6761030000000119
+     ],
+     "B": [
+      0.1955520000000206,
+      0.24671749999998838,
+      0.5633749999999509
+     ]
+    }
+   }
+  },
+  {
+   "file": "alter-sintetico.musicxml",
+   "profile": "visor-paginado",
+   "notes": [
+    15,
+    15
+   ],
+   "expected_notes": 15,
+   "pitch_errors": [
+    4,
+    0
+   ],
+   "pitch_changed_by_order": 4,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    6560,
+    5219
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -11
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 5,
+    "tie@endid": 1,
+    "accid@id": -11,
+    "accid@accid.ges": -9,
+    "accid@glyph.name": -5,
+    "accid@glyph.auth": -5
+   },
+   "mei_lines_changed": 45,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     17085,
+     17048
+    ],
+    "ids": [
+     88,
+     82
+    ],
+    "g": [
+     103,
+     97
+    ],
+    "class_diff": {
+     "accid": -6
+    },
+    "attr_diff": {
+     "path@stroke-linejoin": 1,
+     "path@stroke-linecap": 1
+    },
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     11,
+     5
+    ],
+    "sig_ops": {
+     "insert": 1
+    },
+    "heads": [
+     15,
+     15
+    ],
+    "heads_compared": 15,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     17,
+     17
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 3,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15
+     },
+     {
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     17,
+     17
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 3,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15,
+      "restsOn": 1,
+      "restsOff": 1
+     },
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15,
+      "restsOn": 1,
+      "restsOff": 1
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    15,
+    15
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 15,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 15,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    1,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      19.58585400000004,
+      28.098228000000006,
+      32.80837599999995
+     ],
+     "B": [
+      19.61120600000004,
+      20.982500000000016,
+      43.30569000000003
+     ]
+    },
+    "svg": {
+     "A": [
+      3.698570000000018,
+      5.1576200000000085,
+      6.021618999999987
+     ],
+     "B": [
+      3.4022089999999707,
+      3.736483499999963,
+      8.199717999999962
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.91729799999996,
+      17.76842300000004,
+      22.65572499999996
+     ],
+     "B": [
+      12.614323000000013,
+      13.254040499999974,
+      28.074007999999935
+     ]
+    },
+    "mei": {
+     "A": [
+      0.18938100000002578,
+      0.25669799999997167,
+      0.3436429999999291
+     ],
+     "B": [
+      0.1729649999999765,
+      0.1925434999999993,
+      0.5030779999999595
+     ]
+    }
+   }
+  },
+  {
+   "file": "alter-sintetico.musicxml",
+   "profile": "visor-continuo",
+   "notes": [
+    15,
+    15
+   ],
+   "expected_notes": 15,
+   "pitch_errors": [
+    4,
+    0
+   ],
+   "pitch_changed_by_order": 4,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    6560,
+    5219
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -11
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 5,
+    "tie@endid": 1,
+    "accid@id": -11,
+    "accid@accid.ges": -9,
+    "accid@glyph.name": -5,
+    "accid@glyph.auth": -5
+   },
+   "mei_lines_changed": 45,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     17086,
+     17049
+    ],
+    "ids": [
+     88,
+     82
+    ],
+    "g": [
+     103,
+     97
+    ],
+    "class_diff": {
+     "accid": -6
+    },
+    "attr_diff": {
+     "path@stroke-linejoin": 1,
+     "path@stroke-linecap": 1
+    },
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     11,
+     5
+    ],
+    "sig_ops": {
+     "insert": 1
+    },
+    "heads": [
+     15,
+     15
+    ],
+    "heads_compared": 15,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     17,
+     17
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 3,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15
+     },
+     {
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     17,
+     17
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 3,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15,
+      "restsOn": 1,
+      "restsOff": 1
+     },
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 17,
+      "tempo": 1,
+      "tstamp": 17,
+      "off": 15,
+      "restsOn": 1,
+      "restsOff": 1
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    15,
+    15
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 15,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 15,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    1,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      6.283500000000004,
+      6.917256500000008,
+      10.613734000000022
+     ],
+     "B": [
+      6.324228999999946,
+      8.918241000000023,
+      15.14336800000001
+     ]
+    },
+    "svg": {
+     "A": [
+      3.299032000000011,
+      3.6145599999999263,
+      5.5736890000000585
+     ],
+     "B": [
+      3.253539000000046,
+      4.937878000000012,
+      8.152807000000166
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.371769000000086,
+      14.275001500000144,
+      22.616697000000045
+     ],
+     "B": [
+      12.632217999999966,
+      19.892471999999998,
+      29.331621999999925
+     ]
+    },
+    "mei": {
+     "A": [
+      0.167978999999832,
+      0.21587049999982355,
+      0.31623100000001614
+     ],
+     "B": [
+      0.15673400000014226,
+      0.348758499999974,
+      0.47476000000006024
+     ]
+    }
+   }
+  },
+  {
+   "file": "bach--bwv66.6.mxl",
+   "profile": "defecto",
+   "notes": [
+    165,
+    165
+   ],
+   "expected_notes": 165,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    55553,
+    36427
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -155
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 77,
+    "accid@id": -155,
+    "accid@accid.ges": -87,
+    "accid@glyph.name": -77,
+    "accid@glyph.auth": -77
+   },
+   "mei_lines_changed": 483,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     156574,
+     152110
+    ],
+    "ids": [
+     723,
+     645
+    ],
+    "g": [
+     896,
+     818
+    ],
+    "class_diff": {
+     "accid": -78
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     155,
+     77
+    ],
+    "sig_ops": {},
+    "heads": [
+     165,
+     165
+    ],
+    "heads_compared": 165,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     52,
+     52
+    ],
+    "end_ms": [
+     22500,
+     22500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     },
+     {
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     52,
+     52
+    ],
+    "end_ms": [
+     22500,
+     22500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 10,
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     },
+     {
+      "measureOn": 10,
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    51,
+    51
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 165,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 165,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      38.559252000000015,
+      56.01319699999999,
+      94.470955
+     ],
+     "B": [
+      34.853448999999955,
+      51.70792349999988,
+      81.23115899999993
+     ]
+    },
+    "svg": {
+     "A": [
+      17.031965000000127,
+      23.602396000000113,
+      45.812343000000055
+     ],
+     "B": [
+      15.200305999999955,
+      22.108262500000023,
+      35.42298000000005
+     ]
+    },
+    "timemap": {
+     "A": [
+      21.740356999999904,
+      30.157038000000057,
+      68.17892299999994
+     ],
+     "B": [
+      21.222622,
+      29.22568799999999,
+      44.72947599999998
+     ]
+    },
+    "mei": {
+     "A": [
+      1.0475830000000315,
+      1.3526174999999512,
+      3.507913000000144
+     ],
+     "B": [
+      0.7628330000000005,
+      1.3663709999999583,
+      2.381674999999859
+     ]
+    }
+   }
+  },
+  {
+   "file": "bach--bwv66.6.mxl",
+   "profile": "visor-paginado",
+   "notes": [
+    165,
+    165
+   ],
+   "expected_notes": 165,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    55553,
+    36427
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -155
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 77,
+    "accid@id": -155,
+    "accid@accid.ges": -87,
+    "accid@glyph.name": -77,
+    "accid@glyph.auth": -77
+   },
+   "mei_lines_changed": 483,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     137702,
+     133233
+    ],
+    "ids": [
+     720,
+     642
+    ],
+    "g": [
+     890,
+     812
+    ],
+    "class_diff": {
+     "accid": -78
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     155,
+     77
+    ],
+    "sig_ops": {},
+    "heads": [
+     165,
+     165
+    ],
+    "heads_compared": 165,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     52,
+     52
+    ],
+    "end_ms": [
+     22500,
+     22500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     },
+     {
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     52,
+     52
+    ],
+    "end_ms": [
+     22500,
+     22500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 10,
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     },
+     {
+      "measureOn": 10,
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    51,
+    51
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 165,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 165,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      35.601142999999865,
+      53.71250699999996,
+      98.0451720000001
+     ],
+     "B": [
+      35.227785999999924,
+      47.95455900000002,
+      66.70434000000023
+     ]
+    },
+    "svg": {
+     "A": [
+      15.99434899999983,
+      26.23581649999994,
+      41.97859299999982
+     ],
+     "B": [
+      14.433234999999968,
+      20.294336999999928,
+      37.40637400000014
+     ]
+    },
+    "timemap": {
+     "A": [
+      20.829535999999734,
+      32.84774200000004,
+      49.03410499999973
+     ],
+     "B": [
+      19.66466000000014,
+      25.106546999999864,
+      42.30110400000012
+     ]
+    },
+    "mei": {
+     "A": [
+      0.9448859999997694,
+      1.5179255000000467,
+      2.1187559999998484
+     ],
+     "B": [
+      0.7438019999999597,
+      0.9979544999999916,
+      2.2935230000002775
+     ]
+    }
+   }
+  },
+  {
+   "file": "bach--bwv66.6.mxl",
+   "profile": "visor-continuo",
+   "notes": [
+    165,
+    165
+   ],
+   "expected_notes": 165,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    55553,
+    36427
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -155
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 77,
+    "accid@id": -155,
+    "accid@accid.ges": -87,
+    "accid@glyph.name": -77,
+    "accid@glyph.auth": -77
+   },
+   "mei_lines_changed": 483,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     132140,
+     127682
+    ],
+    "ids": [
+     688,
+     610
+    ],
+    "g": [
+     863,
+     785
+    ],
+    "class_diff": {
+     "accid": -78
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     155,
+     77
+    ],
+    "sig_ops": {},
+    "heads": [
+     165,
+     165
+    ],
+    "heads_compared": 165,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     52,
+     52
+    ],
+    "end_ms": [
+     22500,
+     22500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     },
+     {
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     52,
+     52
+    ],
+    "end_ms": [
+     22500,
+     22500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 10,
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     },
+     {
+      "measureOn": 10,
+      "on": 51,
+      "qstamp": 52,
+      "tempo": 1,
+      "tstamp": 52,
+      "off": 51
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    51,
+    51
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 165,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 165,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      10.85065799999984,
+      15.073969499999976,
+      29.03236599999991
+     ],
+     "B": [
+      10.858311999999842,
+      14.999404499999969,
+      18.567927000000054
+     ]
+    },
+    "svg": {
+     "A": [
+      15.135560000000169,
+      21.432971499999894,
+      41.82086299999992
+     ],
+     "B": [
+      14.826082999999926,
+      19.93467450000003,
+      27.803919999999835
+     ]
+    },
+    "timemap": {
+     "A": [
+      20.613679000000047,
+      26.99729050000019,
+      50.727934000000005
+     ],
+     "B": [
+      20.068002999999862,
+      27.65820400000007,
+      33.23260500000015
+     ]
+    },
+    "mei": {
+     "A": [
+      0.9459269999997559,
+      1.9037404999999126,
+      3.982402000000093
+     ],
+     "B": [
+      0.7630659999999807,
+      0.9167549999999665,
+      1.6442360000000917
+     ]
+    }
+   }
+  },
+  {
+   "file": "beach--prayer_of_a_tired_child.musicxml",
+   "profile": "defecto",
+   "notes": [
+    1089,
+    1089
+   ],
+   "expected_notes": 1089,
+   "pitch_errors": [
+    12,
+    0
+   ],
+   "pitch_changed_by_order": 12,
+   "same_note_ids": 13,
+   "mei_bytes": [
+    415671,
+    314366
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1030,
+    "verse": 53,
+    "syl": 53
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 433,
+    "accid@id": -1030,
+    "accid@accid.ges": -500,
+    "accid@glyph.name": -441,
+    "accid@glyph.auth": -441,
+    "verse@n": 53,
+    "verse@id": 53,
+    "tie@endid": 1,
+    "syl@id": 53
+   },
+   "mei_lines_changed": 2720,
+   "svg": {
+    "pages": [
+     4,
+     4
+    ],
+    "bytes": [
+     1196348,
+     1178326
+    ],
+    "ids": [
+     5665,
+     5171
+    ],
+    "g": [
+     6440,
+     5962
+    ],
+    "class_diff": {
+     "tie": 7,
+     "spanning": 16,
+     "hairpin": 2,
+     "accid": -597,
+     "verse": 53,
+     "slur": 6,
+     "syl": 54
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1030,
+     433
+    ],
+    "sig_ops": {
+     "insert": 3058,
+     "replace": 60,
+     "delete": 2871
+    },
+    "heads": [
+     1089,
+     1089
+    ],
+    "heads_compared": 0,
+    "pages_head_count_differs": 4,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     225,
+     225
+    ],
+    "end_ms": [
+     62000,
+     62000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 224,
+      "qstamp": 225,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224
+     },
+     {
+      "on": 224,
+      "qstamp": 225,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     225,
+     225
+    ],
+    "end_ms": [
+     62000,
+     62000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 31,
+      "on": 224,
+      "qstamp": 225,
+      "restsOn": 5,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224,
+      "restsOff": 5
+     },
+     {
+      "measureOn": 31,
+      "on": 224,
+      "qstamp": 225,
+      "restsOn": 5,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224,
+      "restsOff": 5
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    160,
+    0,
+    224,
+    224
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 1089,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 1089,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    1,
+    1
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      210.94789799999944,
+      316.40417449999995,
+      477.2337549999993
+     ],
+     "B": [
+      173.68087400000013,
+      186.09506199999942,
+      293.4292889999997
+     ]
+    },
+    "svg": {
+     "A": [
+      153.07116600000018,
+      233.4378045000003,
+      415.489192
+     ],
+     "B": [
+      136.65559199999916,
+      139.78794300000027,
+      198.16823900000009
+     ]
+    },
+    "timemap": {
+     "A": [
+      113.01288400000067,
+      174.90469699999994,
+      270.20189800000026
+     ],
+     "B": [
+      93.1529330000003,
+      113.06216099999983,
+      202.53338600000006
+     ]
+    },
+    "mei": {
+     "A": [
+      7.896548000000621,
+      12.22392149999996,
+      24.42843300000004
+     ],
+     "B": [
+      6.536715999999615,
+      7.271032000000105,
+      16.718803999999636
+     ]
+    }
+   }
+  },
+  {
+   "file": "beach--prayer_of_a_tired_child.musicxml",
+   "profile": "visor-paginado",
+   "notes": [
+    1089,
+    1089
+   ],
+   "expected_notes": 1089,
+   "pitch_errors": [
+    12,
+    0
+   ],
+   "pitch_changed_by_order": 12,
+   "same_note_ids": 13,
+   "mei_bytes": [
+    415671,
+    314366
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1030,
+    "verse": 53,
+    "syl": 53
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 433,
+    "accid@id": -1030,
+    "accid@accid.ges": -500,
+    "accid@glyph.name": -441,
+    "accid@glyph.auth": -441,
+    "verse@n": 53,
+    "verse@id": 53,
+    "tie@endid": 1,
+    "syl@id": 53
+   },
+   "mei_lines_changed": 2720,
+   "svg": {
+    "pages": [
+     4,
+     4
+    ],
+    "bytes": [
+     1117887,
+     1099847
+    ],
+    "ids": [
+     5640,
+     5146
+    ],
+    "g": [
+     6419,
+     5941
+    ],
+    "class_diff": {
+     "tie": 7,
+     "spanning": 16,
+     "hairpin": 2,
+     "accid": -597,
+     "verse": 53,
+     "slur": 6,
+     "syl": 54
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 4,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1030,
+     433
+    ],
+    "sig_ops": {
+     "insert": 3058,
+     "replace": 60,
+     "delete": 2871
+    },
+    "heads": [
+     1089,
+     1089
+    ],
+    "heads_compared": 0,
+    "pages_head_count_differs": 4,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     225,
+     225
+    ],
+    "end_ms": [
+     62000,
+     62000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 224,
+      "qstamp": 225,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224
+     },
+     {
+      "on": 224,
+      "qstamp": 225,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     225,
+     225
+    ],
+    "end_ms": [
+     62000,
+     62000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 31,
+      "on": 224,
+      "qstamp": 225,
+      "restsOn": 5,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224,
+      "restsOff": 5
+     },
+     {
+      "measureOn": 31,
+      "on": 224,
+      "qstamp": 225,
+      "restsOn": 5,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224,
+      "restsOff": 5
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    160,
+    0,
+    224,
+    224
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 1089,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 1089,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    1,
+    1
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      197.14854899999955,
+      256.0632034999999,
+      297.43237899999986
+     ],
+     "B": [
+      167.5780649999997,
+      175.21051650000027,
+      255.50030700000025
+     ]
+    },
+    "svg": {
+     "A": [
+      141.64039400000001,
+      156.86039700000038,
+      240.81826999999976
+     ],
+     "B": [
+      127.98766799999976,
+      139.7118930000006,
+      161.5143479999997
+     ]
+    },
+    "timemap": {
+     "A": [
+      108.38796899999943,
+      114.86590250000063,
+      180.67567299999973
+     ],
+     "B": [
+      91.35593399999925,
+      94.09073099999978,
+      115.22951100000046
+     ]
+    },
+    "mei": {
+     "A": [
+      7.506366999999955,
+      7.936197499999253,
+      14.072911000000204
+     ],
+     "B": [
+      5.767132999999376,
+      6.567988499999956,
+      7.504463999999643
+     ]
+    }
+   }
+  },
+  {
+   "file": "beach--prayer_of_a_tired_child.musicxml",
+   "profile": "visor-continuo",
+   "notes": [
+    1089,
+    1089
+   ],
+   "expected_notes": 1089,
+   "pitch_errors": [
+    12,
+    0
+   ],
+   "pitch_changed_by_order": 12,
+   "same_note_ids": 13,
+   "mei_bytes": [
+    415671,
+    314366
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1030,
+    "verse": 53,
+    "syl": 53
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 433,
+    "accid@id": -1030,
+    "accid@accid.ges": -500,
+    "accid@glyph.name": -441,
+    "accid@glyph.auth": -441,
+    "verse@n": 53,
+    "verse@id": 53,
+    "tie@endid": 1,
+    "syl@id": 53
+   },
+   "mei_lines_changed": 2720,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     1061229,
+     1039488
+    ],
+    "ids": [
+     5392,
+     4901
+    ],
+    "g": [
+     6159,
+     5668
+    ],
+    "class_diff": {
+     "accid": -597,
+     "verse": 53,
+     "syl": 53
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 1,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1030,
+     433
+    ],
+    "sig_ops": {
+     "insert": 160,
+     "delete": 8
+    },
+    "heads": [
+     1089,
+     1089
+    ],
+    "heads_compared": 1089,
+    "pages_head_count_differs": 0,
+    "heads_moved": 1054,
+    "heads_max_dx": 2262.0,
+    "heads_max_dy": 7.0
+   },
+   "timemap": {
+    "entries": [
+     225,
+     225
+    ],
+    "end_ms": [
+     62000,
+     62000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 224,
+      "qstamp": 225,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224
+     },
+     {
+      "on": 224,
+      "qstamp": 225,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     225,
+     225
+    ],
+    "end_ms": [
+     62000,
+     62000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 31,
+      "on": 224,
+      "qstamp": 225,
+      "restsOn": 5,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224,
+      "restsOff": 5
+     },
+     {
+      "measureOn": 31,
+      "on": 224,
+      "qstamp": 225,
+      "restsOn": 5,
+      "tempo": 1,
+      "tstamp": 225,
+      "off": 224,
+      "restsOff": 5
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    224,
+    224
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 1089,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 1089,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    1,
+    1
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      64.73497599999973,
+      69.78560350000043,
+      105.00514900000053
+     ],
+     "B": [
+      56.70680600000014,
+      60.573137499999575,
+      98.22153400000025
+     ]
+    },
+    "svg": {
+     "A": [
+      180.00249600000097,
+      200.0505764999998,
+      291.3369650000004
+     ],
+     "B": [
+      160.8461239999997,
+      165.71042600000055,
+      257.15832899999987
+     ]
+    },
+    "timemap": {
+     "A": [
+      110.28887199999917,
+      119.12980249999782,
+      178.92113099999915
+     ],
+     "B": [
+      90.06818999999996,
+      93.5780435000006,
+      155.27358400000048
+     ]
+    },
+    "mei": {
+     "A": [
+      7.583611000000019,
+      7.942651000000296,
+      13.462204999999813
+     ],
+     "B": [
+      6.031976000000213,
+      6.510614500000884,
+      10.88954300000114
+     ]
+    }
+   }
+  },
+  {
+   "file": "beethoven--opus18no1--movement3.mxl",
+   "profile": "defecto",
+   "notes": [
+    1289,
+    1289
+   ],
+   "expected_notes": 1289,
+   "pitch_errors": [
+    26,
+    0
+   ],
+   "pitch_changed_by_order": 26,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    510224,
+    407086
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1090
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 163,
+    "accid@id": -1090,
+    "accid@accid.ges": -346,
+    "accid@glyph.name": -147,
+    "accid@glyph.auth": -147,
+    "tie@endid": 14
+   },
+   "mei_lines_changed": 2844,
+   "svg": {
+    "pages": [
+     7,
+     7
+    ],
+    "bytes": [
+     1621437,
+     1571981
+    ],
+    "ids": [
+     7327,
+     6400
+    ],
+    "g": [
+     8734,
+     7811
+    ],
+    "class_diff": {
+     "tie": 4,
+     "spanning": 4,
+     "peicadq": -1,
+     "accid": -927,
+     "xqalbhe": 1
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 3,
+    "empty_accid": [
+     1090,
+     163
+    ],
+    "sig_ops": {
+     "insert": 16,
+     "replace": 8
+    },
+    "heads": [
+     1289,
+     1289
+    ],
+    "heads_compared": 1289,
+    "pages_head_count_differs": 0,
+    "heads_moved": 111,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 32.0
+   },
+   "timemap": {
+    "entries": [
+     1227,
+     1227
+    ],
+    "end_ms": [
+     511500,
+     511500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 32,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141
+     },
+     {
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     1227,
+     1227
+    ],
+    "end_ms": [
+     511500,
+     511500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 32,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 341,
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141,
+      "restsOn": 252,
+      "restsOff": 252
+     },
+     {
+      "measureOn": 341,
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141,
+      "restsOn": 252,
+      "restsOff": 252
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    947,
+    0,
+    1150,
+    1150
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 3003,
+     "missingRaw": 1714,
+     "missingNotated": 0,
+     "example": "fmlv5y5-rend2"
+    },
+    {
+     "on": 3003,
+     "missingRaw": 1714,
+     "missingNotated": 0,
+     "example": "fmlv5y5-rend2"
+    }
+   ],
+   "log_lines": [
+    7,
+    7
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      308.60399999999936,
+      364.39731499999834,
+      474.4085730000006
+     ],
+     "B": [
+      254.2399030000015,
+      266.8089964999981,
+      373.3447759999999
+     ]
+    },
+    "svg": {
+     "A": [
+      189.38729700000113,
+      230.86405999999806,
+      332.6573189999981
+     ],
+     "B": [
+      160.0420549999999,
+      168.35532700000294,
+      207.27784299999985
+     ]
+    },
+    "timemap": {
+     "A": [
+      283.0661560000008,
+      349.1146625000001,
+      469.8234830000001
+     ],
+     "B": [
+      221.7593229999984,
+      232.38053600000057,
+      313.35953599999993
+     ]
+    },
+    "mei": {
+     "A": [
+      9.200854999999137,
+      9.668068500000118,
+      16.249807999996847
+     ],
+     "B": [
+      7.916041999998924,
+      8.05805750000036,
+      8.42359100000067
+     ]
+    }
+   }
+  },
+  {
+   "file": "beethoven--opus18no1--movement3.mxl",
+   "profile": "visor-paginado",
+   "notes": [
+    1289,
+    1289
+   ],
+   "expected_notes": 1289,
+   "pitch_errors": [
+    26,
+    0
+   ],
+   "pitch_changed_by_order": 26,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    510224,
+    407086
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1090
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 163,
+    "accid@id": -1090,
+    "accid@accid.ges": -346,
+    "accid@glyph.name": -147,
+    "accid@glyph.auth": -147,
+    "tie@endid": 14
+   },
+   "mei_lines_changed": 2844,
+   "svg": {
+    "pages": [
+     7,
+     7
+    ],
+    "bytes": [
+     1483630,
+     1434160
+    ],
+    "ids": [
+     7273,
+     6346
+    ],
+    "g": [
+     8692,
+     7769
+    ],
+    "class_diff": {
+     "tie": 4,
+     "spanning": 4,
+     "peicadq": -1,
+     "accid": -927,
+     "xqalbhe": 1
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 1,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 3,
+    "empty_accid": [
+     1090,
+     163
+    ],
+    "sig_ops": {
+     "insert": 16,
+     "replace": 8
+    },
+    "heads": [
+     1289,
+     1289
+    ],
+    "heads_compared": 1289,
+    "pages_head_count_differs": 0,
+    "heads_moved": 111,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 32.0
+   },
+   "timemap": {
+    "entries": [
+     1227,
+     1227
+    ],
+    "end_ms": [
+     511500,
+     511500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 32,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141
+     },
+     {
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     1227,
+     1227
+    ],
+    "end_ms": [
+     511500,
+     511500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 32,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 341,
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141,
+      "restsOn": 252,
+      "restsOff": 252
+     },
+     {
+      "measureOn": 341,
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141,
+      "restsOn": 252,
+      "restsOff": 252
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    947,
+    0,
+    1150,
+    1150
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 3003,
+     "missingRaw": 1714,
+     "missingNotated": 0,
+     "example": "fmlv5y5-rend2"
+    },
+    {
+     "on": 3003,
+     "missingRaw": 1714,
+     "missingNotated": 0,
+     "example": "fmlv5y5-rend2"
+    }
+   ],
+   "log_lines": [
+    7,
+    7
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      296.92530700000134,
+      342.11528250000265,
+      471.999495
+     ],
+     "B": [
+      255.0164330000007,
+      277.6619224999977,
+      303.9535199999991
+     ]
+    },
+    "svg": {
+     "A": [
+      186.84530799999993,
+      229.86443250000048,
+      290.4253119999994
+     ],
+     "B": [
+      162.7229759999973,
+      171.52116900000146,
+      210.41187100000025
+     ]
+    },
+    "timemap": {
+     "A": [
+      290.02413499999966,
+      338.2417430000005,
+      460.1996020000006
+     ],
+     "B": [
+      222.8206859999991,
+      241.73098150000078,
+      313.59309700000085
+     ]
+    },
+    "mei": {
+     "A": [
+      9.378835000003164,
+      9.977888500001427,
+      15.809375000000728
+     ],
+     "B": [
+      7.62408200000209,
+      8.338926500000525,
+      12.913236999997025
+     ]
+    }
+   }
+  },
+  {
+   "file": "beethoven--opus18no1--movement3.mxl",
+   "profile": "visor-continuo",
+   "notes": [
+    1289,
+    1289
+   ],
+   "expected_notes": 1289,
+   "pitch_errors": [
+    26,
+    0
+   ],
+   "pitch_changed_by_order": 26,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    510224,
+    407086
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1090
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 163,
+    "accid@id": -1090,
+    "accid@accid.ges": -346,
+    "accid@glyph.name": -147,
+    "accid@glyph.auth": -147,
+    "tie@endid": 14
+   },
+   "mei_lines_changed": 2844,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     1360161,
+     1309080
+    ],
+    "ids": [
+     6692,
+     5765
+    ],
+    "g": [
+     8193,
+     7266
+    ],
+    "class_diff": {
+     "accid": -927
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1090,
+     163
+    ],
+    "sig_ops": {
+     "insert": 14
+    },
+    "heads": [
+     1289,
+     1289
+    ],
+    "heads_compared": 1289,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     1227,
+     1227
+    ],
+    "end_ms": [
+     511500,
+     511500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 32,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141
+     },
+     {
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     1227,
+     1227
+    ],
+    "end_ms": [
+     511500,
+     511500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 32,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 341,
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141,
+      "restsOn": 252,
+      "restsOff": 252
+     },
+     {
+      "measureOn": 341,
+      "on": 1150,
+      "qstamp": 1227,
+      "tempo": 1,
+      "tstamp": 1227,
+      "off": 1141,
+      "restsOn": 252,
+      "restsOff": 252
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    1150,
+    1150
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 3003,
+     "missingRaw": 1714,
+     "missingNotated": 0,
+     "example": "fmlv5y5-rend2"
+    },
+    {
+     "on": 3003,
+     "missingRaw": 1714,
+     "missingNotated": 0,
+     "example": "fmlv5y5-rend2"
+    }
+   ],
+   "log_lines": [
+    7,
+    7
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      101.43235400000412,
+      117.75378049999927,
+      171.90083900000172
+     ],
+     "B": [
+      84.05320300000312,
+      89.33173449999958,
+      126.8861939999988
+     ]
+    },
+    "svg": {
+     "A": [
+      307.05503099999623,
+      355.86651450000136,
+      481.10969699999987
+     ],
+     "B": [
+      271.733444999998,
+      326.76632000000063,
+      380.2598059999982
+     ]
+    },
+    "timemap": {
+     "A": [
+      286.99289200000203,
+      367.8761600000016,
+      450.6872399999993
+     ],
+     "B": [
+      220.0497409999989,
+      235.3866324999999,
+      359.32715299999836
+     ]
+    },
+    "mei": {
+     "A": [
+      9.335026000000653,
+      13.921207499999582,
+      16.28787200000079
+     ],
+     "B": [
+      7.891451999999845,
+      8.291657499999928,
+      13.16463400000066
+     ]
+    }
+   }
+  },
+  {
+   "file": "demos--two-parts.xml",
+   "profile": "defecto",
+   "notes": [
+    32,
+    32
+   ],
+   "expected_notes": 32,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    14289,
+    10870
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -31
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 5,
+    "accid@id": -31,
+    "accid@accid.ges": -6,
+    "accid@glyph.name": -5,
+    "accid@glyph.auth": -5
+   },
+   "mei_lines_changed": 94,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     92970,
+     91895
+    ],
+    "ids": [
+     166,
+     140
+    ],
+    "g": [
+     192,
+     166
+    ],
+    "class_diff": {
+     "accid": -26
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     31,
+     5
+    ],
+    "sig_ops": {},
+    "heads": [
+     32,
+     32
+    ],
+    "heads_compared": 32,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     19,
+     19
+    ],
+    "end_ms": [
+     13171,
+     13171
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 18,
+      "qstamp": 19,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18
+     },
+     {
+      "on": 18,
+      "qstamp": 19,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     19,
+     19
+    ],
+    "end_ms": [
+     13171,
+     13171
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 3,
+      "on": 18,
+      "qstamp": 19,
+      "restsOn": 2,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18,
+      "restsOff": 2
+     },
+     {
+      "measureOn": 3,
+      "on": 18,
+      "qstamp": 19,
+      "restsOn": 2,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18,
+      "restsOff": 2
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    18,
+    18
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 32,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 32,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      19.41877899999963,
+      25.79476049999721,
+      33.90560800000094
+     ],
+     "B": [
+      18.180758999998943,
+      19.569110500002353,
+      32.00534999999945
+     ]
+    },
+    "svg": {
+     "A": [
+      6.354881999999634,
+      7.401844500000152,
+      10.92614400000457
+     ],
+     "B": [
+      5.960897000000841,
+      6.397628999999142,
+      14.919201999997313
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.893277999995917,
+      13.45914249999987,
+      22.270754000004672
+     ],
+     "B": [
+      11.836472999999387,
+      13.359105500001533,
+      15.595624000001408
+     ]
+    },
+    "mei": {
+     "A": [
+      0.31538300000102026,
+      0.33633950000148616,
+      0.5636630000008154
+     ],
+     "B": [
+      0.2594890000000305,
+      0.28700449999996636,
+      0.4074010000003909
+     ]
+    }
+   }
+  },
+  {
+   "file": "demos--two-parts.xml",
+   "profile": "visor-paginado",
+   "notes": [
+    32,
+    32
+   ],
+   "expected_notes": 32,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    14289,
+    10870
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -31
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 5,
+    "accid@id": -31,
+    "accid@accid.ges": -6,
+    "accid@glyph.name": -5,
+    "accid@glyph.auth": -5
+   },
+   "mei_lines_changed": 94,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     92531,
+     91456
+    ],
+    "ids": [
+     163,
+     137
+    ],
+    "g": [
+     191,
+     165
+    ],
+    "class_diff": {
+     "accid": -26
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     31,
+     5
+    ],
+    "sig_ops": {},
+    "heads": [
+     32,
+     32
+    ],
+    "heads_compared": 32,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     19,
+     19
+    ],
+    "end_ms": [
+     13171,
+     13171
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 18,
+      "qstamp": 19,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18
+     },
+     {
+      "on": 18,
+      "qstamp": 19,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     19,
+     19
+    ],
+    "end_ms": [
+     13171,
+     13171
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 3,
+      "on": 18,
+      "qstamp": 19,
+      "restsOn": 2,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18,
+      "restsOff": 2
+     },
+     {
+      "measureOn": 3,
+      "on": 18,
+      "qstamp": 19,
+      "restsOn": 2,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18,
+      "restsOff": 2
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    18,
+    18
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 32,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 32,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      18.672370000000228,
+      19.929924000000028,
+      32.372755999997025
+     ],
+     "B": [
+      19.02734899999996,
+      20.185904500000106,
+      31.997498000000633
+     ]
+    },
+    "svg": {
+     "A": [
+      6.3580110000038985,
+      7.018536999999924,
+      10.87912900000083
+     ],
+     "B": [
+      6.1282740000024205,
+      6.281160500000624,
+      9.954379000002518
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.905430999999226,
+      13.390089500000613,
+      22.849561999995785
+     ],
+     "B": [
+      12.259842999999819,
+      14.12702999999783,
+      21.903074999998353
+     ]
+    },
+    "mei": {
+     "A": [
+      0.3169849999976577,
+      0.3987359999991895,
+      0.5585460000002058
+     ],
+     "B": [
+      0.2650930000017979,
+      0.3157995000019582,
+      0.4055350000016915
+     ]
+    }
+   }
+  },
+  {
+   "file": "demos--two-parts.xml",
+   "profile": "visor-continuo",
+   "notes": [
+    32,
+    32
+   ],
+   "expected_notes": 32,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 2,
+   "mei_bytes": [
+    14289,
+    10870
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -31
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 5,
+    "accid@id": -31,
+    "accid@accid.ges": -6,
+    "accid@glyph.name": -5,
+    "accid@glyph.auth": -5
+   },
+   "mei_lines_changed": 94,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     92532,
+     91456
+    ],
+    "ids": [
+     163,
+     137
+    ],
+    "g": [
+     191,
+     165
+    ],
+    "class_diff": {
+     "accid": -26
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     31,
+     5
+    ],
+    "sig_ops": {},
+    "heads": [
+     32,
+     32
+    ],
+    "heads_compared": 32,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     19,
+     19
+    ],
+    "end_ms": [
+     13171,
+     13171
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 18,
+      "qstamp": 19,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18
+     },
+     {
+      "on": 18,
+      "qstamp": 19,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     19,
+     19
+    ],
+    "end_ms": [
+     13171,
+     13171
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 3,
+      "on": 18,
+      "qstamp": 19,
+      "restsOn": 2,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18,
+      "restsOff": 2
+     },
+     {
+      "measureOn": 3,
+      "on": 18,
+      "qstamp": 19,
+      "restsOn": 2,
+      "tempo": 1,
+      "tstamp": 19,
+      "off": 18,
+      "restsOff": 2
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    18,
+    18
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 32,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 32,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      5.575271000001521,
+      6.655275999997684,
+      9.859409000004234
+     ],
+     "B": [
+      5.628603000001021,
+      6.116824500000803,
+      9.388301999999385
+     ]
+    },
+    "svg": {
+     "A": [
+      6.4168920000010985,
+      7.0592089999991,
+      11.045285000000149
+     ],
+     "B": [
+      5.917901000000711,
+      6.276799999999639,
+      9.339726000001974
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.52258100000472,
+      14.420584000003146,
+      22.64242699999886
+     ],
+     "B": [
+      12.155698999999004,
+      12.729617499999222,
+      21.09043400000155
+     ]
+    },
+    "mei": {
+     "A": [
+      0.2935559999968973,
+      0.3421180000004824,
+      0.6165800000017043
+     ],
+     "B": [
+      0.2633779999996477,
+      0.32895949999874574,
+      0.4826419999990321
+     ]
+    }
+   }
+  },
+  {
+   "file": "demos--voices_with_chords.xml",
+   "profile": "defecto",
+   "notes": [
+    37,
+    37
+   ],
+   "expected_notes": 37,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    12397,
+    8736
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -37
+   },
+   "mei_attr_diff": {
+    "accid@id": -37
+   },
+   "mei_lines_changed": 112,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     46409,
+     44349
+    ],
+    "ids": [
+     155,
+     118
+    ],
+    "g": [
+     196,
+     159
+    ],
+    "class_diff": {
+     "accid": -37
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     37,
+     0
+    ],
+    "sig_ops": {},
+    "heads": [
+     37,
+     37
+    ],
+    "heads_compared": 37,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     16,
+     16
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     },
+     {
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     16,
+     16
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     },
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    15,
+    15
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 37,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 37,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      18.365718000000925,
+      19.543730499997764,
+      27.995253000000957
+     ],
+     "B": [
+      16.655021999999008,
+      17.909331499999098,
+      24.67878700000074
+     ]
+    },
+    "svg": {
+     "A": [
+      4.236345999997866,
+      4.761232000000746,
+      6.39783300000272
+     ],
+     "B": [
+      3.6099130000002333,
+      3.7456379999985074,
+      7.549660000000586
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.23829200000182,
+      13.455058999999892,
+      15.392934000003152
+     ],
+     "B": [
+      11.273809999998775,
+      11.630268499999147,
+      16.287211999999272
+     ]
+    },
+    "mei": {
+     "A": [
+      0.26680299999861745,
+      0.28814000000056694,
+      0.3294549999991432
+     ],
+     "B": [
+      0.18717499999911524,
+      0.22566050000023097,
+      0.421650000000227
+     ]
+    }
+   }
+  },
+  {
+   "file": "demos--voices_with_chords.xml",
+   "profile": "visor-paginado",
+   "notes": [
+    37,
+    37
+   ],
+   "expected_notes": 37,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    12397,
+    8736
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -37
+   },
+   "mei_attr_diff": {
+    "accid@id": -37
+   },
+   "mei_lines_changed": 112,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     27005,
+     24949
+    ],
+    "ids": [
+     149,
+     112
+    ],
+    "g": [
+     190,
+     153
+    ],
+    "class_diff": {
+     "accid": -37
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     37,
+     0
+    ],
+    "sig_ops": {},
+    "heads": [
+     37,
+     37
+    ],
+    "heads_compared": 37,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     16,
+     16
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     },
+     {
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     16,
+     16
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     },
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    15,
+    15
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 37,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 37,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      17.305822999995144,
+      20.42565999999715,
+      28.721605999999156
+     ],
+     "B": [
+      16.34639999999854,
+      17.051274500001455,
+      19.294362000000547
+     ]
+    },
+    "svg": {
+     "A": [
+      3.9872749999994994,
+      4.331034000002546,
+      8.288923000000068
+     ],
+     "B": [
+      3.504371999999421,
+      3.6919325000017125,
+      4.300210000001243
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.157565000001341,
+      13.105999000003067,
+      19.60672599999816
+     ],
+     "B": [
+      10.910374000002776,
+      11.696881000001667,
+      12.721452000001591
+     ]
+    },
+    "mei": {
+     "A": [
+      0.25046499999734806,
+      0.3069820000018808,
+      0.494883999999729
+     ],
+     "B": [
+      0.20134300000063377,
+      0.2110274999995454,
+      1.721227000001818
+     ]
+    }
+   }
+  },
+  {
+   "file": "demos--voices_with_chords.xml",
+   "profile": "visor-continuo",
+   "notes": [
+    37,
+    37
+   ],
+   "expected_notes": 37,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    12397,
+    8736
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -37
+   },
+   "mei_attr_diff": {
+    "accid@id": -37
+   },
+   "mei_lines_changed": 112,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     27003,
+     24947
+    ],
+    "ids": [
+     149,
+     112
+    ],
+    "g": [
+     190,
+     153
+    ],
+    "class_diff": {
+     "accid": -37
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     37,
+     0
+    ],
+    "sig_ops": {},
+    "heads": [
+     37,
+     37
+    ],
+    "heads_compared": 37,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     16,
+     16
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     },
+     {
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     16,
+     16
+    ],
+    "end_ms": [
+     8000,
+     8000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 0,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     },
+     {
+      "measureOn": 4,
+      "on": 15,
+      "qstamp": 16,
+      "tempo": 1,
+      "tstamp": 16,
+      "off": 15
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    15,
+    15
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 37,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 37,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      5.486944999996922,
+      5.777029000000766,
+      6.084885000003851
+     ],
+     "B": [
+      5.086941000001389,
+      5.237805000000662,
+      5.392196000000695
+     ]
+    },
+    "svg": {
+     "A": [
+      4.106318999998621,
+      4.3041359999988344,
+      4.9564250000039465
+     ],
+     "B": [
+      3.475445000000036,
+      3.5899439999993774,
+      3.946785000000091
+     ]
+    },
+    "timemap": {
+     "A": [
+      12.180798000001232,
+      13.365834500000346,
+      14.975909000000684
+     ],
+     "B": [
+      10.967081999999209,
+      11.331685500001186,
+      11.842209000002185
+     ]
+    },
+    "mei": {
+     "A": [
+      0.2585700000054203,
+      0.2843339999963064,
+      0.3787689999953727
+     ],
+     "B": [
+      0.19489799999792012,
+      0.2145199999995384,
+      0.2525840000016615
+     ]
+    }
+   }
+  },
+  {
+   "file": "joplin--maple_leaf_rag.mxl",
+   "profile": "defecto",
+   "notes": [
+    1581,
+    1581
+   ],
+   "expected_notes": 1581,
+   "pitch_errors": [
+    12,
+    0
+   ],
+   "pitch_changed_by_order": 12,
+   "same_note_ids": 7,
+   "mei_bytes": [
+    541558,
+    337381
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1432
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 982,
+    "accid@id": -1432,
+    "accid@accid.ges": -1171,
+    "accid@glyph.name": -1022,
+    "accid@glyph.auth": -1022,
+    "tie@endid": 5
+   },
+   "mei_lines_changed": 4562,
+   "svg": {
+    "pages": [
+     3,
+     3
+    ],
+    "bytes": [
+     1335823,
+     1309856
+    ],
+    "ids": [
+     5987,
+     5537
+    ],
+    "g": [
+     7694,
+     7245
+    ],
+    "class_diff": {
+     "tie": 1,
+     "spanning": 1,
+     "accid": -450
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1432,
+     982
+    ],
+    "sig_ops": {
+     "insert": 7
+    },
+    "heads": [
+     1581,
+     1581
+    ],
+    "heads_compared": 1581,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     905,
+     905
+    ],
+    "end_ms": [
+     155100,
+     155100
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 4,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 899,
+      "qstamp": 905,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848
+     },
+     {
+      "on": 899,
+      "qstamp": 905,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     905,
+     905
+    ],
+    "end_ms": [
+     155100,
+     155100
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 4,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 130,
+      "on": 899,
+      "qstamp": 905,
+      "restsOn": 74,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848,
+      "restsOff": 76
+     },
+     {
+      "measureOn": 130,
+      "on": 899,
+      "qstamp": 905,
+      "restsOn": 74,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848,
+      "restsOff": 76
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    612,
+    0,
+    899,
+    899
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 2464,
+     "missingRaw": 883,
+     "missingNotated": 0,
+     "example": "b1jcv3g2-rend2"
+    },
+    {
+     "on": 2464,
+     "missingRaw": 883,
+     "missingNotated": 0,
+     "example": "nwg9kau-rend2"
+    }
+   ],
+   "log_lines": [
+    1,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      220.60236499999883,
+      239.381142000002,
+      297.3899369999999
+     ],
+     "B": [
+      192.07138399999894,
+      212.2619924999999,
+      288.4187330000059
+     ]
+    },
+    "svg": {
+     "A": [
+      139.14064199999848,
+      146.28391300000294,
+      203.29391300000134
+     ],
+     "B": [
+      120.60505900000135,
+      133.61819399999877,
+      193.2015240000037
+     ]
+    },
+    "timemap": {
+     "A": [
+      183.20524999999907,
+      210.5314055000017,
+      283.80014500000107
+     ],
+     "B": [
+      143.72449499999857,
+      159.2401689999988,
+      204.02626299999974
+     ]
+    },
+    "mei": {
+     "A": [
+      9.018665999996301,
+      10.701343500000803,
+      15.52852300000086
+     ],
+     "B": [
+      7.471527999998216,
+      8.090854000001855,
+      11.891396000006353
+     ]
+    }
+   }
+  },
+  {
+   "file": "joplin--maple_leaf_rag.mxl",
+   "profile": "visor-paginado",
+   "notes": [
+    1581,
+    1581
+   ],
+   "expected_notes": 1581,
+   "pitch_errors": [
+    12,
+    0
+   ],
+   "pitch_changed_by_order": 12,
+   "same_note_ids": 7,
+   "mei_bytes": [
+    541558,
+    337381
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1432
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 982,
+    "accid@id": -1432,
+    "accid@accid.ges": -1171,
+    "accid@glyph.name": -1022,
+    "accid@glyph.auth": -1022,
+    "tie@endid": 5
+   },
+   "mei_lines_changed": 4562,
+   "svg": {
+    "pages": [
+     3,
+     3
+    ],
+    "bytes": [
+     1278852,
+     1252861
+    ],
+    "ids": [
+     5976,
+     5526
+    ],
+    "g": [
+     7678,
+     7229
+    ],
+    "class_diff": {
+     "tie": 1,
+     "spanning": 1,
+     "accid": -450
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1432,
+     982
+    ],
+    "sig_ops": {
+     "insert": 7
+    },
+    "heads": [
+     1581,
+     1581
+    ],
+    "heads_compared": 1581,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     905,
+     905
+    ],
+    "end_ms": [
+     155100,
+     155100
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 4,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 899,
+      "qstamp": 905,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848
+     },
+     {
+      "on": 899,
+      "qstamp": 905,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     905,
+     905
+    ],
+    "end_ms": [
+     155100,
+     155100
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 4,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 130,
+      "on": 899,
+      "qstamp": 905,
+      "restsOn": 74,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848,
+      "restsOff": 76
+     },
+     {
+      "measureOn": 130,
+      "on": 899,
+      "qstamp": 905,
+      "restsOn": 74,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848,
+      "restsOff": 76
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    544,
+    0,
+    899,
+    899
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 2464,
+     "missingRaw": 883,
+     "missingNotated": 0,
+     "example": "b1jcv3g2-rend2"
+    },
+    {
+     "on": 2464,
+     "missingRaw": 883,
+     "missingNotated": 0,
+     "example": "nwg9kau-rend2"
+    }
+   ],
+   "log_lines": [
+    1,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      217.3576350000003,
+      259.70193600000493,
+      336.6532540000044
+     ],
+     "B": [
+      193.6327350000065,
+      204.73970100000224,
+      323.1205619999964
+     ]
+    },
+    "svg": {
+     "A": [
+      139.83390700000018,
+      150.89324750000014,
+      210.99496199999703
+     ],
+     "B": [
+      120.0322709999964,
+      128.48355000000083,
+      154.99030800000037
+     ]
+    },
+    "timemap": {
+     "A": [
+      186.03009600000223,
+      213.74197099999947,
+      264.68697400000383
+     ],
+     "B": [
+      143.61531800000375,
+      160.28669700000682,
+      238.1256310000026
+     ]
+    },
+    "mei": {
+     "A": [
+      10.116484999998647,
+      10.96230949999881,
+      16.86965699999564
+     ],
+     "B": [
+      7.03088499999285,
+      7.939405000000988,
+      11.963780999998562
+     ]
+    }
+   }
+  },
+  {
+   "file": "joplin--maple_leaf_rag.mxl",
+   "profile": "visor-continuo",
+   "notes": [
+    1581,
+    1581
+   ],
+   "expected_notes": 1581,
+   "pitch_errors": [
+    12,
+    0
+   ],
+   "pitch_changed_by_order": 12,
+   "same_note_ids": 7,
+   "mei_bytes": [
+    541558,
+    337381
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1432
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 982,
+    "accid@id": -1432,
+    "accid@accid.ges": -1171,
+    "accid@glyph.name": -1022,
+    "accid@glyph.auth": -1022,
+    "tie@endid": 5
+   },
+   "mei_lines_changed": 4562,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     1166825,
+     1139997
+    ],
+    "ids": [
+     5710,
+     5260
+    ],
+    "g": [
+     7431,
+     6981
+    ],
+    "class_diff": {
+     "accid": -450
+    },
+    "attr_diff": {},
+    "style_only_a": [
+     "@font-face Leipzig (58227 bytes, sha1 336df8431d)"
+    ],
+    "style_only_b": [
+     "@font-face Leipzig (58603 bytes, sha1 8c074c64a3)",
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1432,
+     982
+    ],
+    "sig_ops": {
+     "insert": 5
+    },
+    "heads": [
+     1581,
+     1581
+    ],
+    "heads_compared": 1581,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     905,
+     905
+    ],
+    "end_ms": [
+     155100,
+     155100
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 4,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 899,
+      "qstamp": 905,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848
+     },
+     {
+      "on": 899,
+      "qstamp": 905,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     905,
+     905
+    ],
+    "end_ms": [
+     155100,
+     155100
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 4,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 130,
+      "on": 899,
+      "qstamp": 905,
+      "restsOn": 74,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848,
+      "restsOff": 76
+     },
+     {
+      "measureOn": 130,
+      "on": 899,
+      "qstamp": 905,
+      "restsOn": 74,
+      "tempo": 1,
+      "tstamp": 905,
+      "off": 848,
+      "restsOff": 76
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    899,
+    899
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 2464,
+     "missingRaw": 883,
+     "missingNotated": 0,
+     "example": "b1jcv3g2-rend2"
+    },
+    {
+     "on": 2464,
+     "missingRaw": 883,
+     "missingNotated": 0,
+     "example": "nwg9kau-rend2"
+    }
+   ],
+   "log_lines": [
+    1,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      78.09946499999933,
+      88.75353099999847,
+      122.18630399999529
+     ],
+     "B": [
+      65.8078819999937,
+      72.90010249999978,
+      110.76748000000225
+     ]
+    },
+    "svg": {
+     "A": [
+      174.94510699999955,
+      188.62707200000295,
+      244.63313200000266
+     ],
+     "B": [
+      151.01805299999978,
+      161.69470799999908,
+      238.76748699999735
+     ]
+    },
+    "timemap": {
+     "A": [
+      186.16918000000442,
+      209.74452499999825,
+      271.54310400000395
+     ],
+     "B": [
+      143.8486630000043,
+      151.57849999999962,
+      185.86290500000177
+     ]
+    },
+    "mei": {
+     "A": [
+      10.021673999995983,
+      10.86422400000447,
+      15.600323000006028
+     ],
+     "B": [
+      7.131076999998186,
+      7.968141499997728,
+      12.332211000000825
+     ]
+    }
+   }
+  },
+  {
+   "file": "mozart--k545--movement1_exposition.mxl",
+   "profile": "defecto",
+   "notes": [
+    191,
+    191
+   ],
+   "expected_notes": 191,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    55126,
+    35801
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -189
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 1,
+    "accid@id": -189,
+    "accid@accid.ges": -3,
+    "accid@glyph.name": -1,
+    "accid@glyph.auth": -1
+   },
+   "mei_lines_changed": 574,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     165712,
+     154513
+    ],
+    "ids": [
+     767,
+     579
+    ],
+    "g": [
+     967,
+     779
+    ],
+    "class_diff": {
+     "accid": -188
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     189,
+     1
+    ],
+    "sig_ops": {},
+    "heads": [
+     191,
+     191
+    ],
+    "heads_compared": 191,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     146,
+     146
+    ],
+    "end_ms": [
+     21818,
+     21818
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 1,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144
+     },
+     {
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     146,
+     146
+    ],
+    "end_ms": [
+     21818,
+     21818
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 1,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 12,
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144,
+      "restsOn": 11,
+      "restsOff": 11
+     },
+     {
+      "measureOn": 12,
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144,
+      "restsOn": 11,
+      "restsOff": 11
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    144,
+    144
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 191,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 191,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      46.92685999999958,
+      48.09808200000043,
+      67.78877400000056
+     ],
+     "B": [
+      39.344286999999895,
+      44.61024299999917,
+      67.87665399999969
+     ]
+    },
+    "svg": {
+     "A": [
+      16.78483899999992,
+      18.04580250000072,
+      26.144710000000487
+     ],
+     "B": [
+      13.234913000000233,
+      14.016673000001902,
+      20.973824000000604
+     ]
+    },
+    "timemap": {
+     "A": [
+      23.955356999998912,
+      27.161166500001855,
+      37.322142999997595
+     ],
+     "B": [
+      18.775722999998834,
+      19.59104849999858,
+      23.496623000006366
+     ]
+    },
+    "mei": {
+     "A": [
+      0.9844279999961145,
+      1.145849000000453,
+      1.9630270000052406
+     ],
+     "B": [
+      0.6635470000037458,
+      0.7174514999969688,
+      1.1319710000025225
+     ]
+    }
+   }
+  },
+  {
+   "file": "mozart--k545--movement1_exposition.mxl",
+   "profile": "visor-paginado",
+   "notes": [
+    191,
+    191
+   ],
+   "expected_notes": 191,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    55126,
+    35801
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -189
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 1,
+    "accid@id": -189,
+    "accid@accid.ges": -3,
+    "accid@glyph.name": -1,
+    "accid@glyph.auth": -1
+   },
+   "mei_lines_changed": 574,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     146836,
+     135638
+    ],
+    "ids": [
+     764,
+     576
+    ],
+    "g": [
+     961,
+     773
+    ],
+    "class_diff": {
+     "accid": -188
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     189,
+     1
+    ],
+    "sig_ops": {},
+    "heads": [
+     191,
+     191
+    ],
+    "heads_compared": 191,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     146,
+     146
+    ],
+    "end_ms": [
+     21818,
+     21818
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 1,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144
+     },
+     {
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     146,
+     146
+    ],
+    "end_ms": [
+     21818,
+     21818
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 1,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 12,
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144,
+      "restsOn": 11,
+      "restsOff": 11
+     },
+     {
+      "measureOn": 12,
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144,
+      "restsOn": 11,
+      "restsOff": 11
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    144,
+    144
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 191,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 191,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      43.21759500000189,
+      47.365279500001634,
+      66.56153900000209
+     ],
+     "B": [
+      37.02273399999831,
+      39.287092499998835,
+      41.579302000005555
+     ]
+    },
+    "svg": {
+     "A": [
+      16.28750100000616,
+      19.482379000000947,
+      26.012414000004355
+     ],
+     "B": [
+      12.878657999994175,
+      13.455880499997875,
+      14.160845999998855
+     ]
+    },
+    "timemap": {
+     "A": [
+      22.975575000004028,
+      26.88690950000091,
+      36.148465999998734
+     ],
+     "B": [
+      18.31391900000017,
+      19.277569500001846,
+      19.94441299999744
+     ]
+    },
+    "mei": {
+     "A": [
+      0.9442659999986063,
+      1.034928500001115,
+      3.0942339999965043
+     ],
+     "B": [
+      0.6623909999980242,
+      0.7038044999972044,
+      0.7798129999937373
+     ]
+    }
+   }
+  },
+  {
+   "file": "mozart--k545--movement1_exposition.mxl",
+   "profile": "visor-continuo",
+   "notes": [
+    191,
+    191
+   ],
+   "expected_notes": 191,
+   "pitch_errors": [
+    0,
+    0
+   ],
+   "pitch_changed_by_order": 0,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    55126,
+    35801
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -189
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 1,
+    "accid@id": -189,
+    "accid@accid.ges": -3,
+    "accid@glyph.name": -1,
+    "accid@glyph.auth": -1
+   },
+   "mei_lines_changed": 574,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     142147,
+     130951
+    ],
+    "ids": [
+     739,
+     551
+    ],
+    "g": [
+     939,
+     751
+    ],
+    "class_diff": {
+     "accid": -188
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 1,
+    "empty_accid": [
+     189,
+     1
+    ],
+    "sig_ops": {},
+    "heads": [
+     191,
+     191
+    ],
+    "heads_compared": 191,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     146,
+     146
+    ],
+    "end_ms": [
+     21818,
+     21818
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 1,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144
+     },
+     {
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     146,
+     146
+    ],
+    "end_ms": [
+     21818,
+     21818
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 1,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 12,
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144,
+      "restsOn": 11,
+      "restsOff": 11
+     },
+     {
+      "measureOn": 12,
+      "on": 144,
+      "qstamp": 146,
+      "tempo": 1,
+      "tstamp": 146,
+      "off": 144,
+      "restsOn": 11,
+      "restsOff": 11
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    144,
+    144
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 191,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 191,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      12.634957000002032,
+      18.081983000000037,
+      20.645918999995047
+     ],
+     "B": [
+      10.739426000000094,
+      11.186333500001638,
+      18.37201400000049
+     ]
+    },
+    "svg": {
+     "A": [
+      16.66566800000146,
+      23.700521999999182,
+      27.917091000002983
+     ],
+     "B": [
+      13.560824000000139,
+      14.246747999997751,
+      16.82907200000045
+     ]
+    },
+    "timemap": {
+     "A": [
+      23.642888999995193,
+      35.25963349999802,
+      39.227678000002925
+     ],
+     "B": [
+      19.08914100000402,
+      20.160759500002314,
+      27.15926799999579
+     ]
+    },
+    "mei": {
+     "A": [
+      1.0054909999962547,
+      1.4635070000003907,
+      1.7705629999982193
+     ],
+     "B": [
+      0.7087859999955981,
+      0.7621329999965383,
+      0.8943180000060238
+     ]
+    }
+   }
+  },
+  {
+   "file": "schubert--Lindenbaum.xml",
+   "profile": "defecto",
+   "notes": [
+    1668,
+    1668
+   ],
+   "expected_notes": 1668,
+   "pitch_errors": [
+    50,
+    0
+   ],
+   "pitch_changed_by_order": 50,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    659258,
+    460564
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1589
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 647,
+    "accid@id": -1589,
+    "accid@accid.ges": -821,
+    "accid@glyph.name": -742,
+    "accid@glyph.auth": -742,
+    "tie@endid": 2
+   },
+   "mei_lines_changed": 4611,
+   "svg": {
+    "pages": [
+     6,
+     6
+    ],
+    "bytes": [
+     1686828,
+     1630088
+    ],
+    "ids": [
+     8337,
+     7395
+    ],
+    "g": [
+     9875,
+     8935
+    ],
+    "class_diff": {
+     "tie": 2,
+     "spanning": 2,
+     "accid": -942
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 5,
+    "empty_accid": [
+     1589,
+     647
+    ],
+    "sig_ops": {
+     "insert": 6
+    },
+    "heads": [
+     1668,
+     1668
+    ],
+    "heads_compared": 1668,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     814,
+     814
+    ],
+    "end_ms": [
+     133000,
+     133000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 5,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 779,
+      "qstamp": 814,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769
+     },
+     {
+      "on": 779,
+      "qstamp": 814,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     814,
+     814
+    ],
+    "end_ms": [
+     133000,
+     133000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 5,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 82,
+      "on": 779,
+      "qstamp": 814,
+      "restsOn": 106,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769,
+      "restsOff": 105
+     },
+     {
+      "measureOn": 82,
+      "on": 779,
+      "qstamp": 814,
+      "restsOn": 106,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769,
+      "restsOff": 105
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    657,
+    0,
+    779,
+    779
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 1668,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 1668,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    2,
+    1
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      325.0413319999934,
+      403.67018899999675,
+      522.0953439999867
+     ],
+     "B": [
+      268.5133149999965,
+      297.6280779999979,
+      443.5479329999944
+     ]
+    },
+    "svg": {
+     "A": [
+      206.44085899999482,
+      231.94764750000468,
+      306.556196000005
+     ],
+     "B": [
+      173.9064969999963,
+      192.8429580000011,
+      250.58093599999847
+     ]
+    },
+    "timemap": {
+     "A": [
+      155.68305099999998,
+      164.6535470000017,
+      250.8325990000012
+     ],
+     "B": [
+      123.28376900000148,
+      131.61783300000025,
+      183.0769930000024
+     ]
+    },
+    "mei": {
+     "A": [
+      12.00665699999081,
+      13.097282999999152,
+      20.28879400000733
+     ],
+     "B": [
+      9.311610999997356,
+      10.654988499994943,
+      13.92609000000084
+     ]
+    }
+   }
+  },
+  {
+   "file": "schubert--Lindenbaum.xml",
+   "profile": "visor-paginado",
+   "notes": [
+    1668,
+    1668
+   ],
+   "expected_notes": 1668,
+   "pitch_errors": [
+    50,
+    0
+   ],
+   "pitch_changed_by_order": 50,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    659258,
+    460564
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1589
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 647,
+    "accid@id": -1589,
+    "accid@accid.ges": -821,
+    "accid@glyph.name": -742,
+    "accid@glyph.auth": -742,
+    "tie@endid": 2
+   },
+   "mei_lines_changed": 4611,
+   "svg": {
+    "pages": [
+     6,
+     6
+    ],
+    "bytes": [
+     1681493,
+     1624741
+    ],
+    "ids": [
+     8303,
+     7361
+    ],
+    "g": [
+     9869,
+     8929
+    ],
+    "class_diff": {
+     "tie": 2,
+     "spanning": 2,
+     "accid": -942
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 5,
+    "empty_accid": [
+     1589,
+     647
+    ],
+    "sig_ops": {
+     "insert": 6
+    },
+    "heads": [
+     1668,
+     1668
+    ],
+    "heads_compared": 1668,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     814,
+     814
+    ],
+    "end_ms": [
+     133000,
+     133000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 5,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 779,
+      "qstamp": 814,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769
+     },
+     {
+      "on": 779,
+      "qstamp": 814,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     814,
+     814
+    ],
+    "end_ms": [
+     133000,
+     133000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 5,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 82,
+      "on": 779,
+      "qstamp": 814,
+      "restsOn": 106,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769,
+      "restsOff": 105
+     },
+     {
+      "measureOn": 82,
+      "on": 779,
+      "qstamp": 814,
+      "restsOn": 106,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769,
+      "restsOff": 105
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    657,
+    0,
+    779,
+    779
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 1668,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 1668,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    2,
+    1
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      314.12170000000333,
+      348.6294789999956,
+      402.27208899999096
+     ],
+     "B": [
+      267.32801600000676,
+      335.38288549999925,
+      413.01897000000463
+     ]
+    },
+    "svg": {
+     "A": [
+      199.15088899999682,
+      219.47817350000696,
+      261.8346179999935
+     ],
+     "B": [
+      177.62728700000298,
+      203.54334899999958,
+      255.44524800000363
+     ]
+    },
+    "timemap": {
+     "A": [
+      156.55954299999576,
+      192.6323954999898,
+      226.95846400001028
+     ],
+     "B": [
+      122.40219800000341,
+      136.56853149999733,
+      205.88441800000146
+     ]
+    },
+    "mei": {
+     "A": [
+      12.082255000001169,
+      13.322368500004814,
+      16.443238000007113
+     ],
+     "B": [
+      8.998343999999634,
+      10.44934049999938,
+      15.963706000002276
+     ]
+    }
+   }
+  },
+  {
+   "file": "schubert--Lindenbaum.xml",
+   "profile": "visor-continuo",
+   "notes": [
+    1668,
+    1668
+   ],
+   "expected_notes": 1668,
+   "pitch_errors": [
+    50,
+    0
+   ],
+   "pitch_changed_by_order": 50,
+   "same_note_ids": 1,
+   "mei_bytes": [
+    659258,
+    460564
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "accid": -1589
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 647,
+    "accid@id": -1589,
+    "accid@accid.ges": -821,
+    "accid@glyph.name": -742,
+    "accid@glyph.auth": -742,
+    "tie@endid": 2
+   },
+   "mei_lines_changed": 4611,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     1542584,
+     1484843
+    ],
+    "ids": [
+     7670,
+     6728
+    ],
+    "g": [
+     9299,
+     8357
+    ],
+    "class_diff": {
+     "accid": -942
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     1589,
+     647
+    ],
+    "sig_ops": {
+     "insert": 2
+    },
+    "heads": [
+     1668,
+     1668
+    ],
+    "heads_compared": 1668,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     814,
+     814
+    ],
+    "end_ms": [
+     133000,
+     133000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 5,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "on": 779,
+      "qstamp": 814,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769
+     },
+     {
+      "on": 779,
+      "qstamp": 814,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     814,
+     814
+    ],
+    "end_ms": [
+     133000,
+     133000
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 5,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 82,
+      "on": 779,
+      "qstamp": 814,
+      "restsOn": 106,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769,
+      "restsOff": 105
+     },
+     {
+      "measureOn": 82,
+      "on": 779,
+      "qstamp": 814,
+      "restsOn": 106,
+      "tempo": 1,
+      "tstamp": 814,
+      "off": 769,
+      "restsOff": 105
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    779,
+    779
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 1668,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 1668,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    2,
+    1
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      98.87585700000636,
+      110.14971850000438,
+      134.30016199999955
+     ],
+     "B": [
+      80.7880409999998,
+      83.7105015000052,
+      128.7972909999953
+     ]
+    },
+    "svg": {
+     "A": [
+      329.4862720000092,
+      369.64229100000375,
+      433.08348699999624
+     ],
+     "B": [
+      269.7132130000027,
+      287.91645950000384,
+      373.70488200000545
+     ]
+    },
+    "timemap": {
+     "A": [
+      154.3399439999921,
+      167.88436899999942,
+      258.61466599999403
+     ],
+     "B": [
+      117.2562390000021,
+      125.50059200000032,
+      172.21346800000174
+     ]
+    },
+    "mei": {
+     "A": [
+      11.585187000004225,
+      13.015627000000677,
+      18.320846000002348
+     ],
+     "B": [
+      8.90712799999892,
+      9.496739499998512,
+      13.757298999997147
+     ]
+    }
+   }
+  },
+  {
+   "file": "schumann_robert--dichterliebe_no2.xml",
+   "profile": "defecto",
+   "notes": [
+    254,
+    254
+   ],
+   "expected_notes": 254,
+   "pitch_errors": [
+    1,
+    0
+   ],
+   "pitch_changed_by_order": 1,
+   "same_note_ids": 6,
+   "mei_bytes": [
+    105032,
+    77088
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "space": -3,
+    "accid": -245
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 96,
+    "accid@id": -245,
+    "accid@accid.ges": -111,
+    "space@id": -3,
+    "accid@glyph.name": -102,
+    "accid@glyph.auth": -102,
+    "space@dur.ppq": -3,
+    "space@dur": -3
+   },
+   "mei_lines_changed": 661,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     292840,
+     283807
+    ],
+    "ids": [
+     1425,
+     1273
+    ],
+    "g": [
+     1631,
+     1479
+    ],
+    "class_diff": {
+     "space": -3,
+     "accid": -149
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     245,
+     96
+    ],
+    "sig_ops": {
+     "delete": 3
+    },
+    "heads": [
+     254,
+     254
+    ],
+    "heads_compared": 254,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     83,
+     83
+    ],
+    "end_ms": [
+     40500,
+     40500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 2,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77
+     },
+     {
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     83,
+     83
+    ],
+    "end_ms": [
+     40500,
+     40500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 2,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 18,
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77,
+      "restsOn": 13,
+      "restsOff": 16
+     },
+     {
+      "measureOn": 18,
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77,
+      "restsOn": 13,
+      "restsOff": 16
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    73,
+    73
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 254,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 254,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      62.07939499999338,
+      67.86173500000587,
+      106.67306899999676
+     ],
+     "B": [
+      53.306596999995236,
+      55.06241249999948,
+      68.0181819999998
+     ]
+    },
+    "svg": {
+     "A": [
+      34.87649300000339,
+      38.22638149999693,
+      58.659224999995786
+     ],
+     "B": [
+      29.11610799999471,
+      30.278288500005146,
+      41.449844000002486
+     ]
+    },
+    "timemap": {
+     "A": [
+      34.084479000011925,
+      38.43744300000253,
+      66.90468500000134
+     ],
+     "B": [
+      28.235516000000644,
+      29.0245485000014,
+      31.973998000001302
+     ]
+    },
+    "mei": {
+     "A": [
+      2.065004999996745,
+      2.262061499997799,
+      3.759823000000324
+     ],
+     "B": [
+      1.379283000002033,
+      1.6352185000032478,
+      1.8969619999988936
+     ]
+    }
+   }
+  },
+  {
+   "file": "schumann_robert--dichterliebe_no2.xml",
+   "profile": "visor-paginado",
+   "notes": [
+    254,
+    254
+   ],
+   "expected_notes": 254,
+   "pitch_errors": [
+    1,
+    0
+   ],
+   "pitch_changed_by_order": 1,
+   "same_note_ids": 6,
+   "mei_bytes": [
+    105032,
+    77088
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "space": -3,
+    "accid": -245
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 96,
+    "accid@id": -245,
+    "accid@accid.ges": -111,
+    "space@id": -3,
+    "accid@glyph.name": -102,
+    "accid@glyph.auth": -102,
+    "space@dur.ppq": -3,
+    "space@dur": -3
+   },
+   "mei_lines_changed": 661,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     272744,
+     263715
+    ],
+    "ids": [
+     1416,
+     1264
+    ],
+    "g": [
+     1625,
+     1473
+    ],
+    "class_diff": {
+     "space": -3,
+     "accid": -149
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     245,
+     96
+    ],
+    "sig_ops": {
+     "delete": 3
+    },
+    "heads": [
+     254,
+     254
+    ],
+    "heads_compared": 254,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     83,
+     83
+    ],
+    "end_ms": [
+     40500,
+     40500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 2,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77
+     },
+     {
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     83,
+     83
+    ],
+    "end_ms": [
+     40500,
+     40500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 2,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 18,
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77,
+      "restsOn": 13,
+      "restsOff": 16
+     },
+     {
+      "measureOn": 18,
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77,
+      "restsOn": 13,
+      "restsOff": 16
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    73,
+    73
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 254,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 254,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      59.29938699999184,
+      71.70574299999862,
+      107.10934300000372
+     ],
+     "B": [
+      53.18130299999757,
+      54.90425799999866,
+      92.31523700000253
+     ]
+    },
+    "svg": {
+     "A": [
+      34.58789200001047,
+      42.044653500001004,
+      61.955019999993965
+     ],
+     "B": [
+      28.519666000000143,
+      30.01939950000451,
+      54.01040799999464
+     ]
+    },
+    "timemap": {
+     "A": [
+      32.92722500000673,
+      41.91419300000416,
+      59.885536999994656
+     ],
+     "B": [
+      27.208106999998563,
+      29.583886000000348,
+      53.8934470000022
+     ]
+    },
+    "mei": {
+     "A": [
+      2.124318999995012,
+      2.690081500004453,
+      6.295768999989377
+     ],
+     "B": [
+      1.4398749999963911,
+      1.6654225000020233,
+      2.971217999998771
+     ]
+    }
+   }
+  },
+  {
+   "file": "schumann_robert--dichterliebe_no2.xml",
+   "profile": "visor-continuo",
+   "notes": [
+    254,
+    254
+   ],
+   "expected_notes": 254,
+   "pitch_errors": [
+    1,
+    0
+   ],
+   "pitch_changed_by_order": 1,
+   "same_note_ids": 6,
+   "mei_bytes": [
+    105032,
+    77088
+   ],
+   "meiversion": [
+    "6.0-dev",
+    "6.0-dev"
+   ],
+   "mei_tag_diff": {
+    "space": -3,
+    "accid": -245
+   },
+   "mei_attr_diff": {
+    "note@accid.ges": 96,
+    "accid@id": -245,
+    "accid@accid.ges": -111,
+    "space@id": -3,
+    "accid@glyph.name": -102,
+    "accid@glyph.auth": -102,
+    "space@dur.ppq": -3,
+    "space@dur": -3
+   },
+   "mei_lines_changed": 661,
+   "svg": {
+    "pages": [
+     1,
+     1
+    ],
+    "bytes": [
+     265546,
+     256522
+    ],
+    "ids": [
+     1378,
+     1226
+    ],
+    "g": [
+     1588,
+     1436
+    ],
+    "class_diff": {
+     "space": -3,
+     "accid": -149
+    },
+    "attr_diff": {},
+    "style_only_a": [],
+    "style_only_b": [
+     "g.cursor {fill:dodgerblue; color:dodgerblue;}",
+     "g.cursor.chord {fill:limegreen; color:limegreen;}"
+    ],
+    "size_changed_pages": 0,
+    "signature_equal_pages": 0,
+    "signature_equal_pages_no_empty_accid": 0,
+    "empty_accid": [
+     245,
+     96
+    ],
+    "sig_ops": {
+     "delete": 3
+    },
+    "heads": [
+     254,
+     254
+    ],
+    "heads_compared": 254,
+    "pages_head_count_differs": 0,
+    "heads_moved": 0,
+    "heads_max_dx": 0.0,
+    "heads_max_dy": 0.0
+   },
+   "timemap": {
+    "entries": [
+     83,
+     83
+    ],
+    "end_ms": [
+     40500,
+     40500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 2,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77
+     },
+     {
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77
+     }
+    ]
+   },
+   "timemap_mr": {
+    "entries": [
+     83,
+     83
+    ],
+    "end_ms": [
+     40500,
+     40500
+    ],
+    "equal_modulo_ids": true,
+    "entries_diff": 0,
+    "entries_same_ids": 2,
+    "max_abs_dt_ms": 0,
+    "keys": [
+     {
+      "measureOn": 18,
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77,
+      "restsOn": 13,
+      "restsOff": 16
+     },
+     {
+      "measureOn": 18,
+      "qstamp": 83,
+      "tstamp": 83,
+      "on": 73,
+      "tempo": 1,
+      "off": 77,
+      "restsOn": 13,
+      "restsOff": 16
+     }
+    ]
+   },
+   "at_time_wrong_page": [
+    0,
+    0,
+    73,
+    73
+   ],
+   "timemap_ids_in_svg": [
+    {
+     "on": 254,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    },
+    {
+     "on": 254,
+     "missingRaw": 0,
+     "missingNotated": 0,
+     "example": null
+    }
+   ],
+   "log_lines": [
+    0,
+    0
+   ],
+   "time_ms": {
+    "load": {
+     "A": [
+      19.13100100000156,
+      22.659890499999165,
+      33.29110099999525
+     ],
+     "B": [
+      16.749840999997105,
+      18.215351999999257,
+      29.85551200000191
+     ]
+    },
+    "svg": {
+     "A": [
+      34.79429700000037,
+      38.88143900000432,
+      60.81720599999244
+     ],
+     "B": [
+      29.993367999995826,
+      33.687646999995195,
+      50.131194000001415
+     ]
+    },
+    "timemap": {
+     "A": [
+      33.31705400001374,
+      40.786566000002495,
+      60.69043599998986
+     ],
+     "B": [
+      26.092039999995905,
+      33.89615100000083,
+      47.75917499999923
+     ]
+    },
+    "mei": {
+     "A": [
+      2.1835099999880185,
+      2.546286999997392,
+      3.7590130000025965
+     ],
+     "B": [
+      1.4359089999998105,
+      1.6715485000022454,
+      2.8025440000055823
+     ]
+    }
+   }
+  }
+ ],
+ "options_only_a": [],
+ "options_only_b": [
+  "gabcAquitanianContext",
+  "gabcExtendedSymbols",
+  "gabcStaffLines",
+  "liquescentWithoutTails",
+  "showHidden"
+ ],
+ "options_default_changed": {},
+ "reps": {
+  "A": 10,
+  "B": 10
+ }
+}

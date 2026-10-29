@@ -1,0 +1,2 @@
+{"case": "tstamp-no-numerico.mei", "result": {"version":"6.1.0-682d606","ok":1,"svgBytes":24981,"pages":1}}
+{"case": "tstamp-no-numerico.mei", "result": {"version":"6.3.0-425dd7b","exception":"[object WebAssembly.Exception]"}}
